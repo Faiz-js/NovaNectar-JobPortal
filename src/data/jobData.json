@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Marketing Officer",
+    "jobType": "FULL-TIME",
+    "salary": "20,000 INR - 25,000 INR",
+    "company": "Intel Corp",
+    "location": "Hyderabad, India"
+  },
+  {
+    "title": "Software Developer",
+    "jobType": "FULL-TIME",
+    "salary": "60,000 INR - 80,000 INR",
+    "company": "Google",
+    "location": "Bangalore, India"
+  },
+  {
+    "title": "Graphic Designer",
+    "jobType": "PART-TIME",
+    "salary": "15,000 INR - 20,000 INR",
+    "company": "Adobe",
+    "location": "Mumbai, India"
+  },
+  {
+    "title": "Data Analyst",
+    "jobType": "FULL-TIME",
+    "salary": "30,000 INR - 40,000 INR",
+    "company": "Amazon",
+    "location": "Chennai, India"
+  },
+  {
+    "title": "HR Manager",
+    "jobType": "FULL-TIME",
+    "salary": "40,000 INR - 50,000 INR",
+    "company": "Microsoft",
+    "location": "Noida, India"
+  },
+  {
+    "title": "Accountant",
+    "jobType": "CONTRACT",
+    "salary": "25,000 INR - 30,000 INR",
+    "company": "KPMG",
+    "location": "Pune, India"
+  },
+  {
+    "title": "UX/UI Designer",
+    "jobType": "INTERNSHIP",
+    "salary": "10,000 INR - 15,000 INR",
+    "company": "Spotify",
+    "location": "Delhi, India"
+  },
+  {
+    "title": "Project Manager",
+    "jobType": "FULL-TIME",
+    "salary": "70,000 INR - 90,000 INR",
+    "company": "TCS",
+    "location": "Kolkata, India"
+  }
+]

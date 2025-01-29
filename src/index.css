@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.padding {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}

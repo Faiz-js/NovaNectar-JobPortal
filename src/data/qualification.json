@@ -1,0 +1,22 @@
+[
+    {
+      "logo": "pencil.png",
+      "name": "10th pass"
+    },
+    {
+      "logo": "books.png",
+      "name": "12th pass"
+    },
+    {
+      "logo": "diploma.png",
+      "name": "Diploma"
+    },
+    {
+      "logo": "graduate.png",
+      "name": "Graduate"
+    },
+    {
+      "logo": "postGraduate.png",
+      "name": "Post Graduate"
+    }
+]

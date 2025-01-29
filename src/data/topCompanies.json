@@ -1,0 +1,22 @@
+[
+     {
+      "logo": "uber.png",
+      "name": "Uber"
+    },
+    {
+      "logo": "google.png",
+      "name": "Google"
+    },
+    {
+      "logo": "microsoft.png",
+      "name": "Microsoft"
+    },
+    {
+      "logo": "apple.png",
+      "name": "Apple"
+    },
+    {
+      "logo": "samsung.png",
+      "name": "Samsung"
+    }
+  ]

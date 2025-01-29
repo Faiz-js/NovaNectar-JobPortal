@@ -1,0 +1,1 @@
+These is my second task of the internship in which I developed a Job Portal website using ReactJS, tailwindcss and framer-motion.
