@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import DreamJob from "../components/DreamJob";
 import Trust from "../components/Trust";
