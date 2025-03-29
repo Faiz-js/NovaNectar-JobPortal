@@ -2,10 +2,10 @@ import React from "react";
 
 const PostJobHero = () => {
   return (
-    <form className="px-40 py-10 flex flex-col gap-5">
+    <form className="px-4 md:px-8 lg:px-40 py-5 md:py-10 flex flex-col gap-4 md:gap-5">
       <div>
-        <h1 className="text-4xl font-semibold">Post a job</h1>
-        <p className="text-xl text-gray-500">
+        <h1 className="text-2xl md:text-4xl font-semibold">Post a job</h1>
+        <p className="text-lg md:text-xl text-gray-500">
           Find the best talent for the company
         </p>
       </div>
@@ -16,7 +16,7 @@ const PostJobHero = () => {
         <input
           type="text"
           placeholder="Add job title, role vacancies etc"
-          className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md"
+          className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md"
         />
       </div>
 
@@ -26,14 +26,14 @@ const PostJobHero = () => {
         <input
           type="text"
           placeholder="Add company name"
-          className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md"
+          className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md"
         />
       </div>
 
-      <div className="flex justify-between gap-4">
-        <div className="w-1/2">
+      <div className="flex flex-col md:flex-row justify-between gap-4">
+        <div className="w-full md:w-1/2">
           <label htmlFor="workMode" className="font-semibold">Work mode</label>
-          <select className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md">
+          <select className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md">
             <option value="">Select...</option>
             <option value="on-site">On-site</option>
             <option value="remote">Remote</option>
@@ -41,9 +41,9 @@ const PostJobHero = () => {
           </select>
         </div>
 
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <label htmlFor="jobrole" className="font-semibold">Job Role</label>
-          <select className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md">
+          <select className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md">
             <option value="">Select...</option>
             <option value="on-site">On-site</option>
             <option value="remote">Remote</option>
@@ -54,35 +54,35 @@ const PostJobHero = () => {
 
       <div>
         <p className="my-1 font-semibold">Salary</p>
-        <div className="flex items-end gap-4">
-          <div className="w-3/12">
+        <div className="flex flex-col md:flex-row items-start md:items-end gap-4">
+          <div className="w-full md:w-3/12">
             <label htmlFor="minsalary">Min Salary</label>
             <div className="flex items-center relative">
               <input
                 type="text"
                 placeholder="Minimum Salary..."
-                className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md"
+                className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md"
               />
               <span className="inline-flex items-center px-4 absolute right-0 bg-gray-900/10 h-full rounded-r-md">
                 INR
               </span>
             </div>
           </div>
-          <div className="w-3/12">
+          <div className="w-full md:w-3/12">
             <label htmlFor="maxsalary">Max Salary</label>
             <div className="flex items-center relative">
               <input
                 type="text"
                 placeholder="Maximum Salary..."
-                className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md"
+                className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md"
               />
               <span className="inline-flex items-center px-4 absolute right-0 bg-gray-900/10 h-full rounded-r-md">
                 INR
               </span>
             </div>
           </div>
-          <div className="w-6/12">
-            <select className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md">
+          <div className="w-full md:w-6/12">
+            <select className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md">
               <option value="">Select...</option>
               <option value="on-site">On-site</option>
               <option value="remote">Remote</option>
@@ -92,20 +92,19 @@ const PostJobHero = () => {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
-        <div className="w-1/2">
+      <div className="flex flex-col md:flex-row items-center gap-4">
+        <div className="w-full md:w-1/2">
           <label htmlFor="vacancies" className="font-semibold">Vacancies</label>
-          <br />
-          <select className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md">
+          <select className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md">
             <option value="">Select...</option>
             <option value="1000+">1000+</option>
             <option value="2000+">2000+</option>
             <option value="3000+">3000+</option>
           </select>
         </div>
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <label htmlFor="joblevel" className="font-semibold">Job Level</label>
-          <select className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md">
+          <select className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md">
             <option value="">Select...</option>
             <option value="intern">Intern</option>
             <option value="fresher">Fresher</option>
@@ -116,10 +115,10 @@ const PostJobHero = () => {
 
       <div>
         <p className="my-1 font-semibold">Location</p>
-        <div className="flex items-center gap-4">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+          <div className="w-full md:w-1/2">
             <label htmlFor="country">Country</label>
-            <select className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md">
+            <select className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md">
               <option value="">Select...</option>
               <option value="india">India</option>
               <option value="china">China</option>
@@ -128,9 +127,9 @@ const PostJobHero = () => {
               <option value="uk">UK</option>
             </select>
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <label htmlFor="city">City</label>
-            <select className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md">
+            <select className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md">
               <option value="">Select...</option>
               <option value="mumbai">Mumbai</option>
               <option value="banglore">Banglore</option>
@@ -147,12 +146,12 @@ const PostJobHero = () => {
         <textarea
           rows={10}
           placeholder="Add your description..."
-          className="w-full outline-none px-3 py-4 border-gray-200 border-2 rounded-md"
+          className="w-full outline-none px-3 py-3 md:py-4 border-gray-200 border-2 rounded-md"
         ></textarea>
       </div>
 
       <div>
-        <button className="bg-blue-600 text-white px-10 py-3 rounded-md font-bold text-xl">
+        <button className="w-full md:w-auto bg-blue-600 text-white px-6 md:px-10 py-2.5 md:py-3 rounded-md font-bold text-lg md:text-xl">
           Post Job
         </button>
       </div>
