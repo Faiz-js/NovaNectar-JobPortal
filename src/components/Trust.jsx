@@ -13,7 +13,7 @@ const Trust = () => {
 
   return (
     <motion.section
-      className="my-10 bg-[#DDF2FF] mx-8 flex rounded-2xl"
+      className="my-10 bg-[#DDF2FF] mx-4 sm:mx-8 flex flex-col md:flex-row rounded-2xl"
       ref={ref}
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
@@ -21,9 +21,9 @@ const Trust = () => {
     >
       <motion.div
         variants={itemVariantsY}
-        className="w-[40vw] bg-white m-3 px-20 py-8 rounded-2xl shadow-2xl"
+        className="w-full md:w-[40vw] bg-white px-4 md:px-20 py-8 rounded-2xl shadow-2xl"
       >
-        <h1 className="text-3xl font-semibold">
+        <h1 className="text-2xl md:text-3xl font-semibold">
           More than 20 lakhs Indians trust job hai
         </h1>
         <motion.button
@@ -33,27 +33,27 @@ const Trust = () => {
           Register now
         </motion.button>
       </motion.div>
-      <div className="w-[60vw] flex items-center justify-evenly">
+      <div className="w-full md:w-[60vw] flex flex-col md:flex-row items-center justify-evenly gap-6 md:gap-0 py-6 md:py-0">
         <motion.div
           variants={scaleVariants}
-          className="grid place-items-center w-24 text-center"
+          className="grid place-items-center w-full md:w-24 text-center"
         >
-          <img src="check-circle.png" alt="tick" />
-          <h2>100% free & verified job</h2>
+          <img src="check-circle.png" alt="tick" className="w-12 md:w-auto" />
+          <h2 className="text-sm md:text-base">100% free & verified job</h2>
         </motion.div>
         <motion.div
           variants={scaleVariants}
-          className="grid place-items-center w-24 text-center"
+          className="grid place-items-center w-full md:w-24 text-center"
         >
-          <img src="Vector.png" alt="vector" />
-          <h2>Best job in your locality</h2>
+          <img src="Vector.png" alt="vector" className="w-12 md:w-auto" />
+          <h2 className="text-sm md:text-base">Best job in your locality</h2>
         </motion.div>
         <motion.div
           variants={scaleVariants}
-          className="grid place-items-center w-32 text-center"
+          className="grid place-items-center w-full md:w-32 text-center"
         >
-          <img src="call.png" alt="call" />
-          <h2>Direct call with HR for interview</h2>
+          <img src="call.png" alt="call" className="w-12 md:w-auto" />
+          <h2 className="text-sm md:text-base">Direct call with HR for interview</h2>
         </motion.div>
       </div>
     </motion.section>
